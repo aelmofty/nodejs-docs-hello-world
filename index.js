@@ -58,6 +58,12 @@ app.get('/', function (req, res) {
     return res.send("Hello World!");
 })
 
+// MY Assignment World for index page
+app.get('/MyAssignment', function (req, res) {
+    return res.send("MyAssignment!");
+})
+
+
 app.get('/api', function (req, res) {
     return res.send("Fabrikam Bank API");
 })
